@@ -1,0 +1,6 @@
+template:
+    dir: /tpl
+
+logger:
+    path: /app/logs
+    name: default.log    

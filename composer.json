@@ -1,0 +1,12 @@
+{
+	"autoload": {
+        "psr-4": {"DFramework\\": "app/core/","Modules\\": "src/"}
+    },
+
+	"require": {
+        "monolog/monolog": "1.0.*",
+        "pimple/pimple": "~3.0",
+        "twig/twig": "~1.0",
+		"symfony/yaml": "^3.0"
+    }	
+}

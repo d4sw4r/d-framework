@@ -1,0 +1,7 @@
+base_path: /blog
+
+routes:
+  index: [index, DFramework\Example\Controller\BaseController, GET]
+  indexbyname: [indexbyname, DFramework\Example\Controller\BaseController, GET]
+  contact: [contact, someClass.contactAction, GET]
+  about: [about, someClass.aboutAction, GET]
